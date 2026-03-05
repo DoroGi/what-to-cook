@@ -1,0 +1,75 @@
+.card {
+  max-width: 480px;
+  margin: 0 auto;
+  background: var(--color-white);
+  border-radius: var(--spacing-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px var(--spacing-md) rgba(0, 0, 0, 0.06);
+}
+
+.image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.content {
+  padding: var(--spacing-xl);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-md);
+  color: var(--color-text-primary);
+}
+
+.meta {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.badge {
+  background-color: var(--color-bg-muted);
+  color: var(--color-text-muted);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.link {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--color-primary);
+  text-decoration: none;
+  margin-bottom: var(--spacing-xl);
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.feedback {
+  background-color: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: var(--spacing-sm);
+  padding: var(--spacing-xl);
+}
+
+.feedbackQuestion {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-lg);
+  text-align: center;
+}
+
+.feedbackButtons {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+}

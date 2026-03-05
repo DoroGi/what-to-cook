@@ -1,0 +1,47 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: var(--spacing-3xl);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+.formGroup {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-secondary);
+}
+
+.select {
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-md);
+  font-size: 15px;
+  border: 1px solid var(--color-border-dark);
+  border-radius: 6px;
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: border-color 0.15s;
+  appearance: auto;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}

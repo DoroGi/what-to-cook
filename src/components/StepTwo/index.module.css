@@ -1,0 +1,32 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.backButton {
+  margin-bottom: var(--spacing-lg);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+.formGroup {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-secondary);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
